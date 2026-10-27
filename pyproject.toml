@@ -7,7 +7,11 @@ authors = [
     { name = "hppdpd", email = "0688082879s@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.162.0",
+    "psycopg[binary]>=3.3.6",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 script-languages-lab4 = "script_languages_lab4:main"
